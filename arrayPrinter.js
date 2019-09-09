@@ -5,7 +5,8 @@ var someArray = ["KC", "StL", "LA", "NYC"];
 
 function printArray(someArray) {
     for(i=0; i<someArray.length; i++){
-        console.log(someArray.toString(i));
+        console.log(someArray.i);
+        
     }
 }
 printArray(someArray);

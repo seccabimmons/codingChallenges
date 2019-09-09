@@ -1,11 +1,21 @@
 //Write a function that has two nested functions
-function add(){
+var a = 3;
+var b = 6;
 
-}
-function subtract(){
+function add(a,b){
+    var x = a+b;
+    console.log(x);
 
-}
-function both(){
-    add();
-    subtract();
 } 
+function subtract(a,b){
+    var y = a-b;
+    console.log(y);
+}
+function both(a,b){
+    add(a,b);
+    subtract(a,b);
+} 
+
+add(a,b);
+subtract(a,b);
+both(a,b);

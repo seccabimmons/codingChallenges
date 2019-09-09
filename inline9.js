@@ -3,7 +3,9 @@
 
 var nineLetterWord = "someworda";
 function nineLetterWordPrinter(nineLetterWord) {
-    for(;;){
-        
+    for(i=0; i<nineLetterWord.length; i++){
+    console.log(nineLetterWord.charAt(i));
     }
 }
+
+nineLetterWordPrinter(nineLetterWord);
